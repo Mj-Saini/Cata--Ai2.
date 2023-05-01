@@ -1,0 +1,863 @@
+.new_btn_incard {
+  background: #d4eaf2;
+  border-radius: 2px;
+  transform: rotate(12.18deg);
+}
+
+.primary_btn_border {
+  border: 1px solid #1ad079;
+  border-radius: 4px;
+  padding: 10px 25px;
+  color: #1ad079;
+}
+.primary_btn_border:hover {
+  border: 1px solid #1ad079;
+  border-radius: 4px;
+  padding: 10px 25px;
+
+  background: #1ad079;
+}
+.primary_btn_border:hover a {
+  color: #ffffff !important;
+}
+.primary_btn_border:hover a svg path {
+  fill: #ffffff;
+}
+.sign_up_btn {
+  border: 1px solid #1ad079;
+  background: #1ad079;
+  border-radius: 4.28235px;
+  padding: 15px 62px;
+}
+.sign_up_btn:hover {
+  background: transparent;
+  border: 1px solid #1ad079;
+  padding: 15px 62px;
+  border-radius: 4.28235px;
+  color: #1ad079;
+}
+.sign_up_btn:hover a {
+  color: #1ad079 !important;
+}
+#Target .get_btn {
+  border: 1px solid #1ad079;
+  background: #1ad079;
+  border-radius: 4.28235px;
+  padding: 15px 62px;
+}
+#Target .get_btn:hover {
+  background: transparent;
+  border: 1px solid #1ad079;
+  padding: 15px 62px;
+  border-radius: 4.28235px;
+  color: #1ad079 !important;
+}
+#Target .get_btn:hover a {
+  color: #1ad079 !important;
+}
+.primary_btn {
+  border: 1px solid transparent;
+  border-radius: 4px;
+  padding: 10px 25px;
+  color: #1ad079;
+}
+.primary_btn:hover {
+  border: 1px solid #1ad079;
+  border-radius: 4px;
+  padding: 10px 25px;
+  color: #1ad079;
+}
+a:hover {
+  color: #1ad079 !important;
+}
+
+.overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  bottom: -150%;
+  left: -100;
+  background: #3861eb;
+}
+div.bg_blue:hover .overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  bottom: 0%;
+  left: 0;
+  background: #3861eb;
+  filter: blur(150px);
+  border-radius: 10px;
+}
+div.bg_green:hover .overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  bottom: 0%;
+  left: 0;
+  background: #329d0b9f;
+  filter: blur(75px);
+  border-radius: 10px;
+}
+.border_line {
+  border-bottom: 2px solid #ced8f9;
+}
+
+/* Hero-sec */
+
+#Hero .hero_btn1 {
+  padding: 10px 15px;
+  background-color: #1ad079;
+  color: white !important;
+  border-radius: 4px;
+}
+#Hero .hero_btn1:hover {
+  padding: 10px 15px;
+  background-color: #1ad079;
+  color: white !important;
+  border-radius: 4px;
+  border: 1px solid #1ad079;
+}
+
+#Hero .hero_btn {
+  padding: 7px 15px;
+}
+
+#Hero .hero_btn:hover {
+  background-color: #1ad079;
+  color: white !important;
+  border-radius: 4px;
+}
+#Hero .hero_btn:hover svg path {
+  fill: #ffffff;
+}
+#Hero .hero_btn:hover svg rect {
+  stroke: #ffffff;
+}
+#Hero .green_shadow {
+  top: -2%;
+  right: -4%;
+}
+#Hero .blue_shadow {
+  bottom: -110%;
+  left: -2%;
+}
+#Hero .overview_posi {
+  left: 10%;
+  bottom: 36px;
+  width: 30px;
+  height: 13px;
+}
+#Hero .overview_posi {
+  left: 0px;
+  top: 35px;
+  width: 54px;
+  height: 13px;
+  animation-name: overview;
+  animation-duration: 2s;
+  animation-delay: 0;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-direction: alternate-reverse;
+  position: absolute;
+}
+@keyframes overview {
+  0% {
+    transform: rotate(-10deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+#Hero .input_card {
+  right: 17px;
+  top: 15px;
+  width: 80px;
+  height: 17px;
+  animation-name: input_card;
+  animation-duration: 2s;
+  animation-delay: 0;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-direction: alternate-reverse;
+  position: absolute;
+}
+@keyframes input_card {
+  0% {
+    transform: rotate(-10deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+#Hero .mike_card {
+  left: 46%;
+  bottom: 25px;
+  width: 51px;
+  height: 56px;
+  transform: translateX(-54%) rotate(-5deg);
+  animation-name: mike_card;
+  animation-duration: 5s;
+  animation-delay: 0;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-direction: alternate-reverse;
+  position: absolute;
+}
+@keyframes mike_card {
+  0% {
+    transform: rotate(20deg);
+    left: 30%;
+  }
+  100% {
+    left: 38%;
+    transform: rotate(-5deg);
+  }
+}
+#Hero .mike_card {
+  left: 46%;
+  bottom: 10px;
+  width: 40px;
+  height: 56px;
+  transform: translateX(-52%) rotate(-5deg);
+}
+@keyframes OverviewAnim {
+  0% {
+    transform: rotate(30deg) !important;
+  }
+  50% {
+    transform: rotate(0deg) !important;
+  }
+  100% {
+    transform: rotate(30deg) !important;
+  }
+}
+
+#Hero.overview_posi {
+  left: 40px;
+  top: 74px;
+  width: 62px;
+  height: 18px;
+}
+
+/* Service-sell */
+#Service .green_shadow_right {
+  top: -15%;
+  right: 0%;
+}
+.w_xsm_75 {
+  width: 75% !important;
+}
+/* ḍemo */
+.clip_size {
+  background-image: url(./assets/img/webp/video.webp);
+  background-size: 100%, 100%;
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  width: 280px;
+  height: 150px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+#Demo .thumbnail {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #9ca0b06c;
+  z-index: 0;
+}
+
+#Demo .clip_size:hover .Playbtn {
+  box-shadow: 0 0 50px -5px black;
+  border-radius: 100%;
+  z-index: 12 !important;
+}
+#Demo .clip_size:hover span {
+  z-index: 12 !important;
+}
+#Demo .blue-shadow1 {
+  background: rgba(89, 126, 246, 0.9);
+  filter: blur(150px);
+  width: 293px;
+  height: 293px;
+  top: 50%;
+  /* transform: translateY(-50%); */
+}
+#Demo .green-shadow1 {
+  width: 626px;
+  height: 663px;
+  right: -19%;
+  top: -21%;
+  background: #d4f4e6;
+  filter: blur(100px);
+}
+#Demo .clip_over {
+  background-image: url(./assets/img/png/video.png) !important;
+  background-position: 0 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/* our-platform */
+
+#platform .cards_bg {
+  background: rgba(217, 217, 217, 0.2);
+  border-radius: 10px;
+  min-height: 150px;
+}
+#platform .card_bg_img {
+  min-height: 100px;
+  background: #1ad079;
+  border-radius: 10px;
+  background-image: url(../src/assets//img/svg/green$.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+#platform .text_on_card {
+  top: 0%;
+  left: 0%;
+  width: 100% !important;
+  height: 100% !important;
+}
+#platform .overlay_over_cards {
+  top: -100%;
+  left: -100%;
+  width: 100% !important;
+  height: 100% !important;
+  background-color: #1ad0786a;
+}
+#platform .cards_bg:hover .overlay_over_cards {
+  top: 0%;
+  left: 0%;
+  width: 100% !important;
+  height: 100% !important;
+  background-color: #08c46971;
+}
+
+/* Approch */
+
+#Approch .cards_blue {
+  background: #07133b;
+  border-radius: 15px;
+  height: 100%;
+  padding: 25px 30px;
+}
+#Approch .cards_blue2 {
+  background: #07133b;
+  border-radius: 15px;
+  padding: 25px 35px;
+}
+#Approch .Active {
+  background: #141f45;
+  border-radius: 7.62055px;
+}
+#Approch .fill-green {
+  fill: #1ad079;
+  border-radius: 1.90514px;
+}
+/* deal */
+#Deal .tangle_btn_position {
+  position: absolute;
+  top: 50%;
+  left: -5%;
+  transform: translateY(-50%);
+}
+#Deal div.polygun:hover svg path {
+  fill: #1ad079;
+}
+
+/* getstarted */
+
+.accordion-item .accordion-button.collapsed {
+  border-radius: 10px !important;
+}
+.accordion-item {
+  border: transparent !important;
+}
+.accordion-button:not(.collapsed) {
+  box-shadow: inset 0 calc(-1 * var(--bs-accordion-border-width)) 0 transparent !important;
+  border: none !important;
+}
+.accordion-button:not(.collapsed) {
+  background-color: #141f45 !important;
+  box-shadow: none !important;
+}
+.accordion-body {
+  background-color: #141f45 !important;
+}
+
+.accordion-button {
+  padding: 0 10px 0 0px !important;
+
+  color: white !important;
+
+  background-color: #07133b !important;
+}
+.accordion-button::after {
+  background-image: url(./assets/img/png/down.png) !important;
+}
+
+.accordion {
+  --bs-accordion-bg: transparent !important;
+  --bs-accordion-border-color: transparent !important;
+  --bs-accordion-border-width: transparent !important;
+  --bs-accordion-border-radius: 10px !important;
+  --bs-accordion-inner-border-radius: 10px !important;
+  --bs-accordion-btn-focus-box-shadow: transparent !important;
+  --bs-accordion-active-color: none !important;
+  outline: none !important;
+  border: none !important;
+  border-radius: 20px !important;
+}
+.accordion-item {
+  border-top-left-radius: 15px !important;
+  border-top-right-radius: 15px !important;
+  border-bottom-left-radius: 15px !important;
+  border-bottom-right-radius: 15px !important;
+}
+.fill_green {
+  fill: #1ad079;
+  border-radius: 1.90514px;
+}
+.accordion-button:not(.collapsed) {
+  background-color: #141f45 !important;
+  box-shadow: none !important;
+  border-top: 20px;
+}
+.gotop {
+  width: 50px;
+}
+
+/* Review */
+
+#Review .Circle-User {
+  border-radius: 50%;
+  border: #1ad079 1px solid;
+  background-color: #e4f9ef;
+  width: 60px;
+  height: 60px;
+  color: #1ad079;
+}
+#Review .green-shadow {
+  width: 449px;
+  height: 449px;
+  background: #e4f9ef;
+  z-index: 0;
+  left: 40%;
+  transform: translateX(-50%);
+  filter: blur(100px);
+}
+#Review .blue-shodow {
+  width: 456px;
+  height: 456px;
+  right: 30%;
+  transform: translateX(50%);
+  background: #e6ebff;
+  filter: blur(100px);
+}
+
+/* target */
+#Target .round_map {
+  top: -12%;
+  left: 43%;
+  width: 120px;
+}
+#Target .round_map_img {
+  width: 120px;
+}
+#Target .locator {
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  height: 100%;
+}
+
+/* footer */
+.bottom_line::after {
+  position: absolute;
+  content: "";
+  bottom: 0;
+  left: 0%;
+  width: 100px;
+  height: 2px;
+  background-color: rgba(255, 255, 255, 0.746);
+}
+input {
+  background: #141f45;
+  border-radius: 4px;
+  outline: none;
+  border: none;
+  color: #b8bcc7 !important;
+}
+::placeholder {
+  color: #b8bcc7 !important;
+  font-weight: 600;
+  font-size: 16px;
+}
+textarea {
+  background: #141f45;
+  border-radius: 4px;
+  border: none;
+}
+a:hover svg.pe-2 path {
+  fill: #1ad079;
+}
+.border_bottom {
+  opacity: 0.1;
+  border: 3px solid rgba(255, 255, 255, 0.7);
+}
+
+.py_custom {
+  padding-top: 13px;
+  padding-bottom: 13px;
+}
+.white_space {
+  white-space: nowrap;
+}
+.financial_btn {
+  border: 2px solid white;
+  color: #b5b8c4;
+}
+.financial_btn:hover {
+  border: 2px solid #1ad079;
+  color: #149766 !important;
+}
+.pt_cuztum {
+  padding-top: 10px;
+}
+.submit_btn {
+  background: #1ad079;
+  border: 2px solid transparent;
+  border-radius: 4px;
+  font-family: "Segoe UI";
+  font-weight: 600;
+  font-size: 16px;
+  color: #ffffff;
+}
+.submit_btn:hover {
+  background: transparent;
+  border-radius: 4px;
+  border: 2px solid #1ad079;
+  font-family: "Segoe UI";
+  font-weight: 600;
+  font-size: 16px;
+  color: #1ad079;
+}
+
+.HOVER_GREEN:hover {
+  background-color: #1ad079;
+  z-index: 1;
+  border-radius: 10px;
+}
+.HOVER_Blue:hover {
+  background-color: #141f45;
+  z-index: 1;
+}
+
+.financial_btn:hover .fill_dots {
+  display: inline;
+}
+.financial_btn .fill_dots {
+  display: none;
+}
+.financial_btn:hover .dots_show {
+  display: none;
+}
+
+/* Loader */
+.Loader {
+  z-index: 1235;
+  background: #1ad079;
+}
+.Overlay_loader {
+  background: #1ad079;
+}
+.fs_loader {
+  font-size: 18px;
+  -webkit-text-stroke: 2px #fcfffe;
+  color: #fcfffe;
+  line-height: 35px;
+  letter-spacing: 4px;
+}
+.Dot_loader {
+  height: 10px;
+  width: 10px;
+  background-color: #fcfffe;
+  border-radius: 50%;
+  margin-right: 5px;
+}
+.LoaderAnimation1 {
+  animation: loader1 1s linear 0s infinite alternate;
+}
+.LoaderAnimation2 {
+  animation: loader1 1.2s linear 0s infinite alternate;
+}
+.LoaderAnimation3 {
+  animation: loader1 1.3s linear 0s infinite alternate;
+}
+.LoaderAnimation4 {
+  animation: loader1 1.4s linear 0s infinite alternate;
+}
+.w_lg_50 {
+  width: 50%;
+}
+
+/* carousel */
+.carousel-indicators {
+  bottom: -10% !important;
+  z-index: 0 !important;
+}
+.slider_bottom .carousel-indicators {
+  bottom: -20% !important;
+  z-index: 0 !important;
+}
+.carousel-control-prev {
+  display: none !important;
+}
+.carousel-control-next {
+  display: none !important;
+}
+.carousel-control-next .carousel-control-prev {
+  display: none !important;
+}
+
+.carousel-indicators [data-bs-target] {
+  background-color: #1ad079 !important;
+}
+.carousel-inner {
+  border-radius: 10px !important;
+}
+
+@keyframes loader1 {
+  0% {
+    transform: scale(0);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+@media (max-width: 576px) {
+  .w_xsm_50 {
+    width: 50% !important ;
+  }
+}
+@media (min-width: 576px) {
+  #platform .cards_bg {
+    background: rgba(217, 217, 217, 0.2);
+    border-radius: 10px;
+    max-width: 420px;
+    min-height: 230px;
+  }
+  #platform .card_bg_img {
+    min-height: 200px;
+    background: #1ad079;
+    border-radius: 10px;
+    background-image: url(../src/assets//img/svg/green$.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+  #Approch .cards_blue2 {
+    background: #07133b;
+    border-radius: 15px;
+    padding: 38px 50px;
+  }
+  #Approch .cards_blue {
+    background: #07133b;
+    border-radius: 15px;
+    height: 100%;
+    padding: 38px 35px;
+  }
+  #Hero .overview_posi {
+    left: 10px;
+    top: 70px;
+    width: 58px;
+    height: 30px;
+  }
+  #Hero .mike_card {
+    left: 46%;
+    bottom: 39px;
+    width: 88px;
+    height: 91px;
+    transform: translateX(-52%) rotate(-5deg);
+  }
+  #Target .round_map_img {
+    width: 188px;
+  }
+  #Target .round_map {
+    top: -12%;
+    left: 43%;
+    width: 188px;
+  }
+  .max_width_742 {
+    max-width: 742px;
+  }
+  .w_md_100 {
+    width: 100% !important;
+  }
+  .clip_size {
+    width: 515px;
+    height: 300px;
+    background-image: url(./assets/img/webp/video.webp);
+    background-size: 100%, 100%;
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+}
+@media (min-width: 768px) {
+  #platform .cards_bg {
+    background: rgba(217, 217, 217, 0.2);
+    border-radius: 10px;
+    max-width: 420px;
+    min-height: 363px;
+  }
+  #Hero .hero_btn {
+    padding: 13px 50px;
+  }
+  #Hero .hero_btn1 {
+    padding: 15px 45px;
+    background-color: #1ad079;
+    color: white !important;
+    border-radius: 4px;
+    border: 1px solid transparent;
+  }
+  #Hero .hero_btn1:hover {
+    padding: 15px 45px;
+    background-color: transparent;
+    color: #1ad079 !important;
+    border-radius: 4px;
+    border: 1px solid #1ad079;
+  }
+  #Hero .overview_posi {
+    left: 0px;
+    top: 53px;
+    width: 58px;
+    height: 13px;
+  }
+  #Hero .mike_card {
+    left: 46%;
+    bottom: 25px;
+    width: 63px;
+    height: 65px;
+    transform: translateX(-52%) rotate(-5deg);
+  }
+  .clip_size {
+    width: 700px;
+    height: 400px;
+    background-image: url(./assets/img/webp/video.webp);
+    background-size: 100%, 100%;
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+}
+
+@media (min-width: 992px) {
+  .w_lg_50 {
+    width: 50%;
+  }
+  #Approch .cards_blue2 {
+    background: #07133b;
+    border-radius: 15px;
+    padding: 38px 50px;
+  }
+  #Hero .mike_card {
+    left: 46%;
+    bottom: 15px;
+    width: 60px;
+    height: 80px;
+    transform: translateX(-52%) rotate(-5deg);
+  }
+  @keyframes OverviewAnim {
+    0% {
+      transform: rotate(30deg) !important;
+    }
+    50% {
+      transform: rotate(0deg) !important;
+    }
+    100% {
+      transform: rotate(30deg) !important;
+    }
+  }
+  #Hero .hero_btn {
+    padding: 13px 50px;
+    border: 1px solid transparent;
+  }
+  #Hero .overview_posi {
+    left: 0px;
+    top: 55px;
+    width: 58px;
+    height: 13px;
+  }
+  .clip_size {
+    width: 946px;
+    height: 413px;
+    background-image: url(./assets/img/webp/video.webp);
+    background-size: 100%, 100%;
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  #platform .card_bg_img {
+    min-height: 364px;
+    background: #1ad079;
+    border-radius: 10px;
+    background-image: url(../src/assets//img/svg/green$.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1140px !important;
+  }
+  #Approch .cards_blue2 {
+    background: #07133b;
+    border-radius: 15px;
+    padding: 83px 66px 87px 123px;
+  }
+  #Approch .cards_blue {
+    background: #07133b;
+    border-radius: 15px;
+    height: 100%;
+    padding: 84px 55px;
+  }
+  #Hero .mike_card {
+    left: 46%;
+    bottom: 10px;
+    width: 60px;
+    height: 80px;
+    transform: translateX(-52%) rotate(-5deg);
+  }
+}
+
+#Deal.tangle_btn_position {
+  position: absolute;
+  top: 50%;
+  left: -12%;
+  transform: translateY(-50%);
+}
+
+.py_12_custom {
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+.border_transperent {
+  border: 2px solid transparent;
+}
+.started_btn_hover:hover {
+  background-color: transparent !important;
+  color: #1ad079 !important;
+  border: 2px solid #1ad079 !important;
+}
